@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import SearchBar from "./components/searchBar/searchBar";
 import ytLogo from './misc/img/Youtube(amin).png';
+import MusicTable from "./components/musicTable/musicTable";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
             <h1 className="App-title-h1">Youtube Playlist Party</h1>
         </div>
         <SearchBar/>
+        <MusicTable/>
     </div>
   );
 }
